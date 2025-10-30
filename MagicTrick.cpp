@@ -5,6 +5,9 @@ namespace CodeJam
 
 /**
  * @brief Reads the input for a single test case.
+ *
+ * This function reads the chosen row IDs and the contents of those rows from the
+ * input file.
  */
 void MagicTrick::readProblem()
 {
@@ -35,6 +38,9 @@ void MagicTrick::readProblem()
  * @brief Solves a single test case.
  *
  * @param output The stringstream to which the output should be written.
+ *
+ * This function determines the outcome of the magic trick and writes it to the
+ * given stringstream.
  */
 void MagicTrick::solveProblem(std::stringstream& output)
 {

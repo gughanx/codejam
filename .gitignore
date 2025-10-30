@@ -1,0 +1,7 @@
+# Build artifacts
+MagicTrick
+MagicTrickTest
+
+# Test files
+*.in
+*.out
